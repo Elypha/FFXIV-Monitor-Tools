@@ -299,6 +299,7 @@ export class Bars {
       const physicalContainer = document.createElement('div');
       physicalContainer.id = 'damage-up-physical';
       physicalContainer.style.color = '#ff6262';
+      physicalContainer.style.fontWeight = '600'
       physicalContainer.style.fontSize = this.options.PhysicalFontSize.toString();
       physicalContainer.setAttribute('value', String(0));
       // physicalContainer.innerText = '物: 10%';
@@ -308,6 +309,7 @@ export class Bars {
       const magicContainer = document.createElement('div');
       magicContainer.id = 'damage-up-magic';
       magicContainer.style.color = '#aaa8ff';
+      magicContainer.style.fontWeight = '600'
       magicContainer.style.fontSize = this.options.MagicFontSize.toString();
       magicContainer.style.top = this.options.PhysicalFontSize.toString();
       magicContainer.setAttribute('value', String(0));

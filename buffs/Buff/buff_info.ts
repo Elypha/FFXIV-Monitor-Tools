@@ -176,7 +176,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 6,
             rangedUp: 3,
-            tts: '近卡',
+            tts: '放浪神',
         },
         balance: { // 太阳神之衡
             gainEffect: [EffectId.TheBalance],
@@ -188,7 +188,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 6,
             rangedUp: 3,
-            tts: '近卡',
+            tts: '太阳神',
         },
         bole: { // 世界树之干
             gainEffect: [EffectId.TheBole],
@@ -200,7 +200,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 3,
             rangedUp: 6,
-            tts: '远卡',
+            tts: '世界树',
         },
         ewer: { // 河流神之瓶
             gainEffect: [EffectId.TheEwer],
@@ -212,7 +212,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 3,
             rangedUp: 6,
-            tts: '远卡',
+            tts: '河流神',
         },
         spear: { // 战争神之枪
             gainEffect: [EffectId.TheSpear],
@@ -224,7 +224,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 6,
             rangedUp: 3,
-            tts: '近卡',
+            tts: '战争神',
         },
         spire: { // 建筑神之塔
             gainEffect: [EffectId.TheSpire],
@@ -236,7 +236,7 @@ export class BuffInfoList {
             target: 'you',
             meleeUp: 3,
             rangedUp: 6,
-            tts: '远卡',
+            tts: '建筑神',
         },
         // 武僧
         riddleOfFire: { // 红莲
@@ -301,7 +301,7 @@ export class BuffInfoList {
             target: 'you',
             physicalUp: 5,
             magicUp: 5,
-            tts: '左眼',
+            tts: '龙肠',
         },
         righteye: { // 巨龙右眼 单人+双人
             gainEffect: [EffectId.RightEye, aEffectId.RightEye],
@@ -341,7 +341,7 @@ export class BuffInfoList {
             target: 'you',
             physicalUp: 3,
             magicUp: 3,
-            tts: '秘环',
+            tts: '神秘环',
         },
         // 诗人
         raging: { // 猛者 26|2020-09-20T03:48:12.5040000+08:00|7d|猛者强击|20.00|1039A1D9|水貂桑|1039A1D9|水貂桑|00|111340|111340||7f5d92a566794a793b65f97686f3699f
@@ -367,7 +367,7 @@ export class BuffInfoList {
             target: 'you',
             physicalUp: 4,
             magicUp: 4,
-            tts: '战斗之声',
+            tts: '战歌',
         },
         radiantFinale: { // 终章
             gainEffect: [aEffectId.RadiantFinale],
@@ -394,7 +394,7 @@ export class BuffInfoList {
             target: 'you',
             physicalUp: 15,
             magicUp: 15,
-            tts: '贪个',
+            tts: '探戈',
         },
         technicalFinish: { // 技巧舞步结束
             gainEffect: [EffectId.TechnicalFinish],
@@ -600,4 +600,3 @@ export class BuffInfoList {
         },
     }
 }
-

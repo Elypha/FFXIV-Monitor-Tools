@@ -238,7 +238,7 @@ export const buffsCalculation = (dom: widget_list) => {
     if (showip <= 0) {
       statp.innerText = '';
     } else {
-      statp.innerText = '　　　' + showip + '%';
+      statp.innerText = '　　' + showip + '%';
     }
   }
 
@@ -248,7 +248,7 @@ export const buffsCalculation = (dom: widget_list) => {
     if (showim <= 0) {
       statm.innerText = '';
     } else {
-      statm.innerText = '　　　' + showim + '%';
+      statm.innerText = '　　' + showim + '%';
     }
   }
 
