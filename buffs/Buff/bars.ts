@@ -298,7 +298,7 @@ export class Bars {
       // 物理增伤
       const physicalContainer = document.createElement('div');
       physicalContainer.id = 'damage-up-physical';
-      physicalContainer.style.color = '#ff8129';
+      physicalContainer.style.color = '#ff6262';
       physicalContainer.style.fontSize = this.options.PhysicalFontSize.toString();
       physicalContainer.setAttribute('value', String(0));
       // physicalContainer.innerText = '物: 10%';
@@ -307,7 +307,7 @@ export class Bars {
       // 魔法增伤
       const magicContainer = document.createElement('div');
       magicContainer.id = 'damage-up-magic';
-      magicContainer.style.color = '#07d5ee';
+      magicContainer.style.color = '#aaa8ff';
       magicContainer.style.fontSize = this.options.MagicFontSize.toString();
       magicContainer.style.top = this.options.PhysicalFontSize.toString();
       magicContainer.setAttribute('value', String(0));
