@@ -29,7 +29,7 @@ export const defaultUserConfig: UserConfigOptions = {
   Scale: 125,
   BigBuffNoticeTTSOn: true,
   DotNoticeLessThanSecond: 7,
-  DotNoticeTTSOn: true,
+  DotNoticeTTSOn: false,
   DotNoticeTTS: "续DoT", // 提醒语音
 
   TTSGoringBlade: false, // 骑士-沥血剑
@@ -145,7 +145,7 @@ const defaultJobsNonConfigOptions: JobsNonConfigOptions = {
   DotBarHeight: 5,
   DotBorderSize: 1,
   DotNoticeLessThanSecond: 7, // <0 取消提醒, >0 剩余n秒时提醒
-  DotNoticeTTSOn: true,
+  DotNoticeTTSOn: false,
   DotNoticeTTS: "续DoT", // 提醒语音
 
   GpAlarmPoint: 0,
