@@ -10,7 +10,7 @@ FFXIV监控工具
 ### 使用方式：
 - 依赖ACT插件: cacbot + ngld.
 - 添加新的自定悬浮窗.
-- 在悬浮窗路径中填写：`https://jiacheng-z.github.io/FFXIV-Monitor-Tools/Buff/buff.html`
+- 在悬浮窗路径中填写：`https://elypha.github.io/FFXIV-Monitor-Tools/buffs/dist/Buff/buff.html`
 
 ### DOT提示说明
 - DOT的剩余TTS提示目前仅针对以下职业技能有效: `诗人:狂风蚀箭`, `白魔:天辉`, `学者:蛊毒法`, `占星:焚灼`, `武士:彼岸花`, `黑魔:暴雷`, `召唤:剧毒菌`
@@ -22,9 +22,9 @@ FFXIV监控工具
 ### 个性化配置
 使用url参数进行配置修改.
 
-样例: 
+样例:
 
-开启秒数参考+关闭TTS+DOT样式修改: `https://jiacheng-z.github.io/FFXIV-Monitor-Tools/Buff/buff.html?brdsec=1&tts=0&dotstyle=44,32`
+开启秒数参考+关闭TTS+DOT样式修改: `https://elypha.github.io/FFXIV-Monitor-Tools/buffs/dist/Buff/buff.html?brdsec=1&tts=0&dotstyle=44,32`
 
 参数:
 - 开关类:
@@ -41,4 +41,4 @@ FFXIV监控工具
     - `brdsecstyle`: 诗人刷新参考文字样式. 字符串(string) 格式: `<字号>,<颜色>` 默认: `20,white`
 - DOT(新增)
     - `dotnoticeless`: DOT剩余时间小于N秒时触发TTS语音提示. 数值(number) 默认: `7`.  说明: 当值<=0时，关闭提示。
-    - `dotnoticetts`: DOT结束前TTS提示的文本内容. 字符串(string) 默认: `续DoT`. 建议修改为 `续buff` 或其他你自己喜欢的语音. 续DoT的发音很怪, 但是为了保证正确性, 默认值不得不设置成这个.. 请大家自行修改吧.. 
+    - `dotnoticetts`: DOT结束前TTS提示的文本内容. 字符串(string) 默认: `续DoT`. 建议修改为 `续buff` 或其他你自己喜欢的语音. 续DoT的发音很怪, 但是为了保证正确性, 默认值不得不设置成这个.. 请大家自行修改吧..
